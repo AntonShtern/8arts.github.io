@@ -59,6 +59,15 @@ nav div {
 .Telephone-number:hover {
     color:sandybrown;
 }
+.Button-up {
+    position:fixed;
+    bottom:5%;
+    right:8%;
+    opacity: 50%;
+}
+.Button-up:hover {
+    opacity: 100%;
+}
 .Harmony {
     background-color: white;
 }
