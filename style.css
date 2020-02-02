@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Roboto-Black; /* Гарнитура шрифта */
+    src: url(../fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+   }
 header {
     display: grid;
     grid-template-rows:  3fr 1fr;
@@ -6,9 +10,9 @@ header {
     /*background-repeat: repeat-y;*/
     border: 1px solid red;
 }
-p, a, h1, h2, h3, li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*наугад поставил, вообще не понимаю пока что тут:)*/
-    font-weight: 800;
+p, a, h1, h2, h3, li, ol {
+    font-family: 'Roboto-Black', sans-serif; /*наугад поставил, вообще не понимаю пока что тут:)*/
+    
 }
 .Title p,
 .Title h1{
