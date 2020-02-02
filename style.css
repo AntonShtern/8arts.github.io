@@ -2,7 +2,7 @@ header {
     display: grid;
     grid-template-rows:  3fr 1fr;
     grid-template-columns: 1fr 3fr 1fr;
-    //background-image: url(img/background-image.jpg);
+    background-image: url(img/background-image.jpg);
     /*background-repeat: repeat-y;*/
     border: 1px solid red;
 }
@@ -62,26 +62,14 @@ nav div {
 .Harmony {
     background-color: white;
 }
-#Price-list {
-    display: block;
-    height: 500px;
-    border: 1px solid orange;
-}
-#For-who {
-    display: block;
-    height: 500px;
-    border: 1px solid orange;
-}
+
+
 #Why-to-come {
     display: block;
     height: 500px;
     border: 1px solid orange;
 }
-#Schedule {
-    display: block;
-    height: 500px;
-    border: 1px solid orange;
-}
+
 nav a { /*ссылки в навигационном меню*/
     color: auto;
     margin: 0;
@@ -165,4 +153,126 @@ nav a:active {
 .Diplomas img {
     width: 40%;
     height: auto;
+}
+#For-who {
+    display: block;
+    border: 1px solid orange;
+}
+#For-who h2 {
+    text-align: center;
+}
+#For-who > div{
+    display: grid;
+    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 4em;
+    grid-row-gap: 2em;
+    border: 1px solid black;
+    
+}
+.For-who-div {
+    border: 1px solid orange;
+    padding-left: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+#For-who div:nth-child(1) {
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+    grid-column-start: 1;   
+    grid-column-end: 3; 
+}
+#For-who div:nth-child(2) {
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+    grid-column-start: 3;   
+    grid-column-end: 5; 
+}
+#For-who div:nth-child(3) {
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+    grid-column-start: 5;   
+    grid-column-end: 6; 
+}
+#For-who div:nth-child(4) {
+    grid-row-start: 2; 
+    grid-row-end: 2; 
+    grid-column-start: 2;   
+    grid-column-end: 3; 
+}
+#For-who div:nth-child(5) {
+    grid-row-start: 2; 
+    grid-row-end: 2; 
+    grid-column-start: 4;   
+    grid-column-end: 5; 
+}
+#Why-to-come {
+    display: block;
+    height: 500px;
+    border: 1px solid orange;
+    background-image: url(img/Stones.jpg);
+}
+#Why-to-come h2, #Why-to-come p {
+text-align: center;
+}
+#Why-to-come div {
+    border: 1px solid white;
+    
+}
+.Start-now {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    margin: 5em 0em 5em 0em;
+    padding: 2em;
+}
+.Start-now > div {
+    background-color: darkslateblue;
+    
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.Start-now p,
+.Start-now img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+}
+.Round-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 210px;
+    margin: 0em 1em 1em 1em;
+}
+#Schedule {
+    display: block;
+    text-align: center;
+}
+#Price-list {
+    display: block;
+    border: 1px solid orange;
+    text-align: center;
+}
+.How-to-find {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.How-to-find h2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+}
+.Yandex {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-left: 5em;
+}
+.Contacts-bottom {
+    text-align:left;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
