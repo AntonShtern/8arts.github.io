@@ -69,6 +69,7 @@ nav div {
   grid-column-end: 1; 
   margin-left: 5em;
   margin-top: 3em;
+  text-align: center;
 }
 .Page-title {
     grid-row-start: 1; 
@@ -82,8 +83,9 @@ nav div {
     grid-row-end: 1; 
     grid-column-start: 3;   
     grid-column-end: 3; 
-    margin-right: 3em;
+    margin-right: 8em;
     margin-top: 4em;
+    text-align: right;
 }
 .Telephone-number {
     color:black;
@@ -100,11 +102,6 @@ nav div {
 .Button-up:hover {
     opacity: 100%;
 }
-.Harmony {
-    background-color: white;
-}
-
-
 #Why-to-come {
     display: block;
     height: 500px;
@@ -127,11 +124,17 @@ nav a:active {
     text-align: center;
     border: 1px solid orange;
 }
-.Harmony div {
+.Harmony > div {
     display: inline-block;
-    margin-left: 5em;
-    border: 1px solid black;
+    margin-left: 15em;
     text-align: center;
+}
+.Harmony :nth-child(2) {
+    margin-left: 0em;
+}
+.Img-Harmony-container {
+    text-align: center;
+    vertical-align: middle;
 }
 .Harmony-div-text {
     font-weight: 200;
@@ -146,7 +149,7 @@ nav a:active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: top;
-    border: 1px solid cyan;
+    
     padding: 2em;
 }
 
@@ -157,6 +160,7 @@ nav a:active {
     margin: 0px;
     text-align: left;
     font-size: 1.5em;
+    line-height: 1.75em;
 }
 #About-me {
     text-align: center;
@@ -180,6 +184,7 @@ nav a:active {
 #About-me ul{
     word-wrap: break-word;
     text-align: left;
+    line-height: 2em;
 }
 .Photo-block {
     text-align: center;
