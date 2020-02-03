@@ -56,7 +56,7 @@ nav {
 }
 nav div {
     display: inline-block;
-    background-color: grey;
+    background-color: white;
     padding: 0;
     border: 1px solid orange;
     border-radius: 3px;
@@ -109,12 +109,13 @@ nav div {
 }
 
 nav a { /*ссылки в навигационном меню*/
-    color: auto;
+    color: black;
     margin: 0;
     text-decoration: none;
+    
 }
 nav a:hover { 
-    color: darkgreen;
+    color: white;
     background-color: peru;
 }
 nav a:active { 
