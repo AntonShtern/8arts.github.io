@@ -188,18 +188,25 @@ nav a:active {
 .Photo-block h2{
     color: white;
 }
-.Diplomas {
-    text-align: center;
+.Diplomas div {
+    vertical-align: top;
 }
 .Diplomas h2 {
     border: 1px solid orange;
     padding: 1em;
     margin-left: 5%;
     width: 80%;
+    text-align: center; 
+}
+.Diploma-container {
+    display: inline;
+    
+
 }
 .Diplomas img {
     width: 40%;
-    height: auto;
+    
+
 }
 #For-who {
     display: block;
