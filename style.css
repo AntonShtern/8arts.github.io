@@ -3,6 +3,7 @@
     src: url(../fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
 }
 
+
 header {
     display: grid;
     grid-template-rows:  3fr 1fr;
@@ -19,7 +20,8 @@ body > div {
     text-align: center;
 }
 p, a, h1, h2, h3, li, ol {
-    font-family: 'Roboto-Black', 'Arial', sans-serif; 
+    font-family: 'Roboto-Black', 'Arial', sans-serif;
+    hyphens: auto;
     
 }
 h1 {
@@ -170,6 +172,9 @@ nav a:active {
     text-align: left;
     font-size: 1.5em;
     line-height: 1.75em;
+}
+.Necessity  ul  li {
+    width: min-content;
 }
 #About-me {
     text-align: center;
