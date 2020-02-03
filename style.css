@@ -2,8 +2,6 @@
     font-family: Roboto-Black; /* Гарнитура шрифта */
     src: url(../fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
 }
-
-
 header {
     display: grid;
     grid-template-rows:  3fr 1fr;
@@ -40,7 +38,7 @@ ul, li {
     font-size: 1em;
 }
 .em0 {
-pp    font-size: 1em;
+    font-size: 1em;
 }
 .em20 {
     font-size: 1.2em;
