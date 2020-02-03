@@ -1,7 +1,7 @@
 @font-face {
     font-family: Roboto-Black; /* Гарнитура шрифта */
     src: url(../fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
-   }
+}
 header {
     display: grid;
     grid-template-rows:  3fr 1fr;
@@ -18,7 +18,8 @@ body > div {
     text-align: center;
 }
 p, a, h1, h2, h3, li, ol {
-    font-family: 'Roboto-Black', 'Arial', sans-serif; 
+    font-family: 'Roboto-Black', 'Arial', sans-serif;
+    hyphens: auto;
     
 }
 h1 {
@@ -170,6 +171,9 @@ nav a:active {
     font-size: 1.5em;
     line-height: 1.75em;
 }
+.Necessity  ul  li {
+    width: min-content;
+}
 #About-me {
     text-align: center;
     
@@ -221,14 +225,14 @@ nav a:active {
     
 
 }
-#For-who {
+#For-whom {
     display: block;
     border: 1px solid orange;
 }
-#For-who h2 {
+#For-whom h2 {
     text-align: center;
 }
-#For-who > div{
+#For-whom > div{
     display: grid;
     grid-template-rows:  4,5em 4,5em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -237,36 +241,36 @@ nav a:active {
     border: 1px solid black;
     
 }
-.For-who-div {
+.For-whom-div {
     border: 1px solid orange;
     text-align: center;
     vertical-align: middle;
 }
-#For-who div:nth-child(1) {
+#For-whom div:nth-child(1) {
     grid-row-start: 1; 
     grid-row-end: 1; 
     grid-column-start: 1;   
     grid-column-end: 4; 
 }
-#For-who div:nth-child(2) {
+#For-whom div:nth-child(2) {
     grid-row-start: 1; 
     grid-row-end: 1; 
     grid-column-start: 5;   
     grid-column-end: 8; 
 }
-#For-who div:nth-child(3) {
+#For-whom div:nth-child(3) {
     grid-row-start: 1; 
     grid-row-end: 1; 
     grid-column-start: 9;   
     grid-column-end: 12; 
 }
-#For-who div:nth-child(4) {
+#For-whom div:nth-child(4) {
     grid-row-start: 2; 
     grid-row-end: 2; 
     grid-column-start: 3;   
     grid-column-end: 6; 
 }
-#For-who div:nth-child(5) {
+#For-whom div:nth-child(5) {
     grid-row-start: 2; 
     grid-row-end: 2; 
     grid-column-start: 7;   
