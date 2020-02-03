@@ -6,18 +6,46 @@ header {
     display: grid;
     grid-template-rows:  3fr 1fr;
     grid-template-columns: 1fr 3fr 1fr;
-    background-image: url(img/background-image.jpg);
+    /* background-image: url(img/background-image.jpg); */
     /*background-repeat: repeat-y;*/
     border: 1px solid red;
 }
-p, a, h1, h2, h3, li, ol {
-    font-family: 'Roboto-Black', sans-serif; /*наугад поставил, вообще не понимаю пока что тут:)*/
+body {
+    font-size: 16px;
     
 }
-.Title p,
+body > div {
+    text-align: center;
+}
+p, a, h1, h2, h3, li, ol {
+    font-family: 'Roboto-Black', 'Arial', sans-serif; 
+    
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+a {
+    font-size: 2em;
+}
+ul, li {
+    font-size: 1em;
+}
+.em0 {
+    font-size: 1em;
+}
+.em20 {
+    font-size: 1.2em;
+}
+.Title h2,
 .Title h1{
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 nav {
   grid-row-start: 2; 
@@ -102,6 +130,8 @@ nav a:active {
 .Harmony div {
     display: inline-block;
     margin-left: 5em;
+    border: 1px solid black;
+    text-align: center;
 }
 .Harmony-div-text {
     font-weight: 200;
@@ -130,7 +160,7 @@ nav a:active {
 }
 #About-me {
     text-align: center;
-    margin-left: 2em;
+    
     border: 2px solid orangered;
     height: auto;
 }
@@ -153,6 +183,10 @@ nav a:active {
 }
 .Photo-block {
     text-align: center;
+    background-image: url(img/Gallery-fon.jpg);
+}
+.Photo-block h2{
+    color: white;
 }
 .Diplomas {
     text-align: center;
@@ -177,7 +211,7 @@ nav a:active {
 #For-who > div{
     display: grid;
     grid-template-rows:  1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 4em;
     grid-row-gap: 2em;
     border: 1px solid black;
@@ -193,31 +227,31 @@ nav a:active {
     grid-row-start: 1; 
     grid-row-end: 1; 
     grid-column-start: 1;   
-    grid-column-end: 3; 
+    grid-column-end: 4; 
 }
 #For-who div:nth-child(2) {
     grid-row-start: 1; 
     grid-row-end: 1; 
-    grid-column-start: 3;   
-    grid-column-end: 5; 
+    grid-column-start: 5;   
+    grid-column-end: 8; 
 }
 #For-who div:nth-child(3) {
     grid-row-start: 1; 
     grid-row-end: 1; 
-    grid-column-start: 5;   
-    grid-column-end: 6; 
+    grid-column-start: 9;   
+    grid-column-end: 12; 
 }
 #For-who div:nth-child(4) {
     grid-row-start: 2; 
     grid-row-end: 2; 
-    grid-column-start: 2;   
-    grid-column-end: 3; 
+    grid-column-start: 3;   
+    grid-column-end: 6; 
 }
 #For-who div:nth-child(5) {
     grid-row-start: 2; 
     grid-row-end: 2; 
-    grid-column-start: 4;   
-    grid-column-end: 5; 
+    grid-column-start: 7;   
+    grid-column-end: 10; 
 }
 #Why-to-come {
     display: block;
